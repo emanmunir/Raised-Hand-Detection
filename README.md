@@ -23,7 +23,7 @@ This is a simple application that uses the webcam to detect if you raise your ha
 1. Clone the repository:
 
     ```sh
-    git clone https://github.com/yourusername/raise-hand-detector.git
+    git clone https://github.com/yourusername/raise-hand-detection.git
     cd raise-hand-detector
     ```
 
@@ -67,7 +67,7 @@ This project is open-source and available under the [MIT License](LICENSE).
 
 - [MediaPipe](https://github.com/google/mediapipe) for the hand detection model.
 - [Streamlit](https://streamlit.io/) for making web applications easy to build.
-```
+
 
 ### Explanation:
 - **Project Overview**: Provides a simple description of what the project does.
@@ -76,5 +76,3 @@ This project is open-source and available under the [MIT License](LICENSE).
 - **Usage Instructions**: Shows how to start the application.
 - **How It Works**: Explains the logic of hand detection.
 - **Contribution and License**: Information for those who want to contribute or know the legal permissions.
-
-Feel free to adjust the URL in the clone command and add any personal notes as needed.
