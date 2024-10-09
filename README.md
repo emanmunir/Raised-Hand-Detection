@@ -55,6 +55,18 @@ This will start a Streamlit server, and you can access the application in your w
 - It checks if all fingers are straight up (by comparing the Y-coordinates of each fingertip with the preceding joint).
 - If all fingers are raised, it displays a message "I raised my hand!" on the video feed.
 
+
+## Images Displayed
+
+- **Hand Raised**: When the application detects a raised hand, it displays a message saying "I raised my hand!" on the video feed. The image shown below (`images/raised.png`) provides a visual representation of what it looks like when a hand is successfully detected as raised:
+
+  ![Hand Raised](images/raised.png)
+
+- **Hand Not Raised**: If no hand is raised, or the conditions for detecting a raised hand are not met, the application will not display the message. The default state of the application is depicted in the image below (`images/not.png`):
+
+  ![Hand Not Raised](images/not.png)
+
+
 ## Contributing
 
 Feel free to open issues or submit pull requests to improve the functionality or extend the project.
@@ -76,3 +88,11 @@ This project is open-source and available under the [MIT License](LICENSE).
 - **Usage Instructions**: Shows how to start the application.
 - **How It Works**: Explains the logic of hand detection.
 - **Contribution and License**: Information for those who want to contribute or know the legal permissions.
+
+
+
+
+
+
+
+
