@@ -1,5 +1,7 @@
 opencv-python-headless
 mediapipe
-streamlit
+streamlit==1.11.1
 streamlit-webrtc
 numpy
+protobuf==3.20.3
+libgl1-mesa-glx
