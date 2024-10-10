@@ -3,5 +3,3 @@ mediapipe
 streamlit
 streamlit-webrtc
 numpy
-protobuf==3.20.3
-libgl1-mesa-glx
